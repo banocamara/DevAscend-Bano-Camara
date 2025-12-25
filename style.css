@@ -1,0 +1,105 @@
+.menu li{
+   margin: auto 15px;
+   list-style: none;   
+}
+.menu{
+ display: flex;
+ background-image: url(fondbarre2.jpg);
+ background-attachment: fixed;
+ height: 80px;
+ font-size: 30px;
+}
+
+.menu li a{
+  letter-spacing: 3px;
+  margin: 45px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.menu li a:hover{
+ background-color: white;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+.presentation{
+    width: 600px;
+    border: 3px inset rgb(106, 255, 0);
+    padding: 45px;
+    font-size: 30px;
+}
+
+.labo{
+    width: 600px;
+    border: 3px dotted rgb(0, 234, 255);
+    padding: 45px;
+    font-size: 30px;
+}
+.photo{
+  height: 30px;
+ margin: -20px;
+
+}
+article{
+   width: 600px;
+    padding: 45px;
+    font-size: 30px;
+   border: 15px dashed rgb(0, 26, 128);
+   border-radius: 50px;
+   
+}
+body{
+  background-image: url(fond1.jpg);
+  color: white;
+  background-attachment: fixed;
+}
+
+.propos, .object{
+  width: 75%;
+  font-size: 40px;
+
+}
+.projet{
+ font-size: 40px;
+}
+img{
+  background-color: rgb(0, 162, 255);
+  height: 400px;
+  margin: 25px;
+}
+
+.contenair{
+display: flex;
+}
+.parcourt, .certificats, .propos, .object{
+   border: 2px solid rgb(187, 0, 255);
+text-align: center; 
+border-top-right-radius: 15%;
+border-top-left-radius: 15%;
+border-bottom-right-radius: 15%;
+border-bottom-left-radius: 15%;
+}
+h3{
+  color: rgb(183, 194, 183);
+}
+.parcourt strong a{
+  text-decoration: none;
+  color: white;
+}
+.compte a{
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+color: white;
+margin: 20px auto;
+text-decoration: none;
+}
