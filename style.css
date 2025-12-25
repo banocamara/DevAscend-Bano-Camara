@@ -92,10 +92,11 @@ img{
 }
 
 
+  @media (max-width:768px){
   .contenair{
-    min-width: 768px;
-    display: flex;
+flex-direction: column;
 }
+  }
 
 .parcourt, .certificats, .propos, .object{
    border: 2px solid rgb(187, 0, 255);
