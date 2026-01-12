@@ -3,159 +3,134 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1{
- margin-bottom: 5px;
-  color: blue;
-  margin-right: 100px;
- 
-}
 
-.nom a{
-  color: darkmagenta;
-  text-decoration: none;
- 
-}
-
-.menu li{
-   margin: auto 15px;
-   list-style: none;   
-}
-.menu{
- display: flex;
- background-image: url(fondbarre2.jpg);
- background-attachment: fixed;
- justify-content: center;
- align-items: center;
+.presentation{
+font-size: 15px;
+ position: relative;
+ width: 65%;
  flex-wrap: wrap;
- height: auto;
- height: 80px;
- font-size: 1.2rem;
+ max-width: 100%;
+ margin: 10% auto;
+ 
 }
 
 .menu li a{
-  letter-spacing: 3px;
-  margin: 10px;
-  padding: 10px;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    margin: 10px;
+    letter-spacing: 1px;
+    color: aliceblue;
 }
 
-.menu li a:hover{
- color: blue;
- 
-}
-
-.section {
+nav .menu{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  padding-left: 60%;
+   list-style: none;
+  flex-wrap: wrap;
+}
+.menu :hover{
+color: blue;
 }
 
-.presentation{
-    max-width: 90%;
-    width: 600px;
-    border: 3px inset #0062ff;
-    padding: 40px;
-    font-size: 30px;
-   flex-wrap: wrap;
-  border-top-right-radius: 50%;
+.menu :hover::checkmark{
+color: rgb(136, 255, 0);
 }
 
-.labo{
-    max-width: 90%;
-    width: 600px;
-    border: 3px dotted rgb(0, 85, 255);
-    padding: 45px;
-    font-size: 30px;
-}
-
-
-article{
-   max-width: 90%;
-   width: 600px;
-    padding: 45px;
-    font-size: 30px;
-   border: 15px dashed rgb(0, 26, 128);
-   border-radius: 50px;
-   
-}
 body{
-  background-color: white;
-  color: black;
-  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: rgba(240, 248, 255, 0.893);
 }
 
-.propos, .object{
-  width: 75%;
-  font-size: 40px;
-
-}
-.projet{
- font-size: 40px;
-}
-
-.photo {
-  margin-left: 50%;
-  height: 40px;
-}
- 
- img{
-  background-color: rgb(0, 162, 255);
-  max-width: 100%;
-  height: 150px;
- margin-left: 59%;
- border-radius: 200px;
-}
-
-@media (max-width:768px){
-  .contenair{
-flex-direction: column;
-}
-}
-.parcourt, .certificats, .propos, .object, .logo, .photos-logos, .devascend {
-border: 2px solid rgb(187, 0, 255);
-text-align: center; 
-border-top-right-radius: 15%;
-border-top-left-radius: 15%;
-border-bottom-right-radius: 15%;
-border-bottom-left-radius: 15%;
-width: 60%;
-font-size: 20px;
-flex-wrap: wrap;
-max-width: 90%;
-padding: 10px;
-text-align: center;
-margin-left: 20%;
-list-style: none;
-}
-
-h3{
-  color: rgb(183, 194, 183);
-}
-.parcourt strong a{
-  text-decoration: none;
-  color: black;
-}
-.compte a{
+.section{
   display: flex;
-  align-items: center;
-  letter-spacing: 3px;
-color: black;
-margin: 20px auto;
-text-decoration: none;
+  max-width: 100%;
+  width: 100%;
+  padding: 50px 40px 5px;
 }
 
-.compte{
-  border: 1px dashed blueviolet;
-  padding: 25px;
-  border-radius: 35px;
+.code{
+  color:  mediumspringgreen;
+  font-size: 16px;
+}
+ .photo img{
+  border: 25px outset  rgb(0, 37, 250);
+  border-radius: 50%;
+
+  
+}
+.code#haut{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: mediumspringgreen;
+}
+.signe{
+  color: blue;
+}
+
+.contact li{
+   margin: 20px auto;
+   padding: 5px;
+   list-style: none;
+   text-decoration: none;
+ 
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+article{
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+.titre2{
+ padding-left: 50%;
+}
+.titre3{
+  padding-left: 35%;
+  padding-top: 25px;
+}
+
+.contenair{
+  flex-wrap: wrap;
+  text-align: center;
+ 
+}
+
+.object, .parcourt, .certificats{
+  padding: 10px;
+}
+
+.parcourt strong, .parcourt strong  a{
+
+ text-decoration: none;
+  color: rgb(18, 226, 157);
 }
 .photo-logos{
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: -100px;
+ 
+ display: flex;
+ gap: 25px;
+ padding-left: 40%;
+ padding-right: 25%;
+ flex-wrap: wrap;
+}
+
+.photo-logos img{
+width: 150px;
+border-radius: 15px;
+}
+.projet{
+
+  text-align: center;
   flex-wrap: wrap;
-  padding-right: 60%;
- list-style: none;
+}
+
+footer{
+  text-align: center;
+  align-items: center;
+  padding-left: 5%;
+  font-size: 13px;
 }
